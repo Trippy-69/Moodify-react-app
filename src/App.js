@@ -7,15 +7,15 @@ import Signup from "./components/Signup"; // Import the Signup component
 // Define functional components for Home, About, and Contact pages
 const Home = () => (
   <section id="home" className="h-screen bg-gray-100">
-    <h1 className="text-4xl text-center p-12">Welcome to Sparkit</h1>
+    <h1 className="text-4xl text-center p-12">Welcome to Moodify</h1>
   </section>
 );
 
 const About = () => (
   <section id="about" className="h-screen bg-white">
-    <h2 className="text-3xl text-center p-12">About Sparkit</h2>
+    <h2 className="text-3xl text-center p-12">About Moodify</h2>
     <p className="text-center px-8">
-      Sparkit is a platform to explore your musical creativity and connect with
+      Moodify is a platform to explore your musical creativity and connect with
       other enthusiasts.
     </p>
   </section>
@@ -25,7 +25,7 @@ const Contact = () => (
   <section id="contact" className="h-screen bg-gray-200">
     <h2 className="text-3xl text-center p-12">Contact Us</h2>
     <p className="text-center px-8">
-      Reach us at <a href="mailto:contact@sparkit.com">contact@sparkit.com</a>.
+      Reach us at <a href="mailto:contact@moodify.com">contact@sparkit.com</a>.
     </p>
   </section>
 );
