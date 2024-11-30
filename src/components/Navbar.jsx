@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2 text-2xl font-bold">
           <Link to="/" className="flex items-center">
             <FaMusic className="w-6 h-6" /> {/* Music Icon */}
-            <span className="ml-2">Sparkit</span>
+            <span className="ml-2">Moodify</span>
           </Link>
         </div>
 
